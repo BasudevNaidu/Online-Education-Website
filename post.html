@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BSNLearn</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav>
+        <img src="images/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i class="fas fa-times" id="menu-close"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html" class="active">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img src="images/menu.png" id="menu-btn" alt="">
+        </div>
+    </nav>
+
+    <section id="blog-container">
+        <div class="blogs blogpost">
+            <div class="post">
+                <img src="images/b3.jpg" alt="">
+                <h3>How the Latest OS Update Affects Your Macbook</h3>
+                <p>
+                    The latest OS update for Macbook brings several exciting features and enhancements that aim to improve user experience and overall system performance. One of the major updates includes improved security protocols to better protect your data from potential threats. Additionally, the update introduces a new, more intuitive interface that makes navigation smoother and more efficient.
+
+                    Another significant change is the enhancement in battery life management, which helps extend the duration your Macbook can run on a single charge. Users will also notice faster application launch times and improved performance for resource-intensive tasks, thanks to optimizations in the system's core architecture.
+
+                    Moreover, the update introduces new features for content creators, such as enhanced graphics support and advanced editing tools, making it easier to produce high-quality multimedia content. The improved compatibility with external devices and software ensures a seamless workflow for professionals and casual users alike.
+
+                    The OS update also focuses on user customization, allowing for more personalized settings and options to tailor the system to individual preferences. This includes new widgets and enhancements to existing applications, providing a more personalized and engaging user experience.
+
+                    Overall, the latest OS update is a significant step forward for Macbook users, offering a range of improvements that enhance security, performance, and usability. Whether you're a professional relying on your Macbook for critical tasks or a casual user looking to enjoy a more streamlined experience, this update has something to offer.
+                </p>
+                <a href="#">Read Next</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <ul>
+                <li>Manage Reputation</li>
+                <li>Power Tools</li>
+                <li>Managed Website</li>
+                <li>Market Service</li>
+            </ul>
+        </div>
+          
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Jobs</li>
+                    <li>Brand Assets</li>
+                    <li>Investor Relations</li>
+                    <li>Term of service</li>
+                </ul>
+              
+            </div>
+            <div class="footer-col">
+                <h3>Features</h3>
+                <ul>
+                    <li>ERP</li>
+                    <li>LMS</li>
+                    <li>Privacy Policy</li>
+                    <li>Feedback form</li>
+                </ul>
+              
+            </div>
+            <div class="footer-col">
+                <h3>Resources</h3>
+                <ul>
+                    <li>Guides</li>
+                    <li>Research</li>
+                    <li>Experts</li>
+                    <li>Marketing</li>
+                </ul>
+              
+            </div>
+    
+    
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>You can trust us, we only send promo offers.</p>
+                <div class="subscribe">
+                    <input type="text" placeholder="Your Email Address">
+                    <a href="#" class="yellow">Subscribe</a>
+                </div>
+            </div>
+    
+    
+            <div class="copyright">
+                <p>Copyright ©2021 All rights reserved | This template is made by Naidu Basudev</p>
+                <div class="pro-links">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                </div>
+            </div>
+    </footer>
+    
+    <script>
+        $('#menu-btn').click(() => {
+            $('nav .navigation ul').addClass('active');
+        });
+        $('#menu-close').click(() => {
+            $('nav .navigation ul').removeClass('active');
+        });
+    </script>
+
+</body>
+
+</html>
